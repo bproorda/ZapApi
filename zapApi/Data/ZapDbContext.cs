@@ -15,5 +15,6 @@ namespace zapApi.Data
         {
 
         }
+        public DbSet<ZapUser> ZapUser { get; set; }
     }
 }
