@@ -81,6 +81,9 @@ namespace zapApi
 
             app.UseRouting();
 
+            app.UseAuthentication();
+           
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
